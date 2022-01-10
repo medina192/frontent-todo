@@ -1,0 +1,354 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.main-container{
+  background-color: aqua;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem
+}
+
+.con-title{
+
+}
+
+.main-title{
+  margin: 0;
+  font-size: 3rem;
+}
+
+
+
+.to-do-form{
+  margin-top: 2rem;
+  background-color: beige;
+  border-radius: 1rem;
+  padding: 4rem
+}
+
+.add-text{
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.con-input-button{
+  display: flex;
+}
+
+.add-input{
+  width: 30rem;
+  font-size: 2rem;
+  margin-right: 2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.add-button{
+  border-radius: .5rem;
+  padding: 1.5rem;
+  background-color: blueviolet;
+  font-size: 2rem;
+  opacity: 1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: opacity ease-in .1s;
+}
+
+.add-button:hover{
+  opacity: 0.9;
+}
+
+.delete-all-button{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  border-radius: .5rem;
+  font-size: 2rem;
+  padding: 1.5rem;
+  background-color: blueviolet;
+  opacity: 1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: opacity ease-in .1s;
+}
+
+.delete-all-button:hover{
+  opacity: 0.9;
+}
+
+
+.con-task{
+  background-color: burlywood;
+  min-width: 30rem;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 1rem;
+  box-shadow: 10px 6px 21px -6px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 6px 21px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 6px 21px -6px rgba(0,0,0,0.75);
+}
+
+.con-data-task{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title-task{
+  font-size: 2.2rem;
+}
+
+.edit-input{
+  width: 30rem;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.save-changes{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  border-radius: .5rem;
+  font-size: 2rem;
+  padding: 1.5rem;
+  background-color: blueviolet;
+  opacity: 1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: opacity ease-in .1s;
+}
+
+.save-changes:hover{
+  opacity: 0.9;
+}
+
+.con-edit-delete-button{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.edit-button{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  border-radius: .5rem;
+  font-size: 2rem;
+  padding: 1.5rem;
+  background-color: blueviolet;
+  opacity: 1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: opacity ease-in .1s;
+}
+
+.edit-button:hover{
+  opacity: 0.9;
+}
+
+
+.delete-button{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+  border-radius: .5rem;
+  font-size: 2rem;
+  padding: 1.5rem;
+  background-color: blueviolet;
+  opacity: 1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: opacity ease-in .1s;
+}
+
+.delete-button:hover{
+  opacity: 0.9;
+}
+
+
+
+@media (max-width: 600px) {
+  .main-container{
+    padding: 1rem
+  }
+
+  .con-title{
+
+  }
+  
+  .main-title{
+    margin: 0;
+    font-size: 2.8rem;
+  }
+  
+  
+  
+  .to-do-form{
+    margin-top: 2rem;
+    background-color: beige;
+    border-radius: 1rem;
+    padding: 1
+  }
+  
+  .add-text{
+    font-size: 2.1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .con-input-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .add-input{
+    width: 90%;
+    font-size: 2rem;
+    margin-right: 2rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .add-button{
+    border-radius: .5rem;
+    margin-top: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    background-color: blueviolet;
+    font-size: 1.8rem;
+    opacity: 1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: opacity ease-in .1s;
+  }
+  
+  .add-button:hover{
+    opacity: 0.9;
+  }
+  
+  .delete-all-button{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+    padding: 1.5rem;
+    background-color: blueviolet;
+    opacity: 1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: opacity ease-in .1s;
+  }
+  
+  .delete-all-button:hover{
+    opacity: 0.9;
+  }
+  
+  
+  .con-task{
+    background-color: burlywood;
+    width: 90%;
+    padding: 1rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    box-shadow: 10px 6px 21px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 6px 21px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 6px 21px -6px rgba(0,0,0,0.75);
+  }
+  
+  .con-data-task{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .title-task{
+    font-size: 2.2rem;
+  }
+  
+  .edit-input{
+    width: 90%;
+    padding: 1rem;
+    font-size: 2rem;
+  }
+  
+  .save-changes{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+    padding: 1.5rem;
+    background-color: blueviolet;
+    opacity: 1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: opacity ease-in .1s;
+  }
+  
+  .save-changes:hover{
+    opacity: 0.9;
+  }
+  
+  .con-edit-delete-button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  
+  .edit-button{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+    padding: .8rem;
+    background-color: blueviolet;
+    opacity: 1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: opacity ease-in .1s;
+  }
+  
+  .edit-button:hover{
+    opacity: 0.9;
+  }
+  
+  
+  .delete-button{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+    padding: .8rem;
+    background-color: blueviolet;
+    opacity: 1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: opacity ease-in .1s;
+  }
+  
+  .delete-button:hover{
+    opacity: 0.9;
+  }
+  
+}
