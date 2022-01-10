@@ -14,7 +14,7 @@ code {
 
 
 .main-container{
-  background-color: aqua;
+  background-color: #f8b195;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -29,13 +29,14 @@ code {
 .main-title{
   margin: 0;
   font-size: 3rem;
+  color: #355c7d;
 }
 
 
 
 .to-do-form{
   margin-top: 2rem;
-  background-color: beige;
+  background-color: #c06c84;
   border-radius: 1rem;
   padding: 4rem
 }
@@ -43,6 +44,7 @@ code {
 .add-text{
   font-size: 2.5rem;
   margin-bottom: 1rem;
+  color: white;
 }
 
 .con-input-button{
@@ -55,12 +57,15 @@ code {
   margin-right: 2rem;
   padding: 1rem;
   border-radius: 0.5rem;
+  border: none;
+  outline-color: #f67280;
 }
 
 .add-button{
   border-radius: .5rem;
   padding: 1.5rem;
-  background-color: blueviolet;
+  background-color: #355c7d;
+  color: white;
   font-size: 2rem;
   opacity: 1;
   border: none;
@@ -79,7 +84,8 @@ code {
   border-radius: .5rem;
   font-size: 2rem;
   padding: 1.5rem;
-  background-color: blueviolet;
+  background-color: #355c7d;
+  color: white;
   opacity: 1;
   border: none;
   outline: none;
@@ -93,7 +99,7 @@ code {
 
 
 .con-task{
-  background-color: burlywood;
+  background-color: #c06c84;
   min-width: 30rem;
   padding: 2rem;
   margin: 2rem 0;
@@ -111,12 +117,17 @@ code {
 
 .title-task{
   font-size: 2.2rem;
+  color: white;
+  margin-bottom: 1rem;
 }
 
 .edit-input{
   width: 30rem;
   padding: 1rem;
   font-size: 2rem;
+  border-radius: .5rem;
+  border: none;
+  outline-color: #f67280;
 }
 
 .save-changes{
@@ -125,7 +136,8 @@ code {
   border-radius: .5rem;
   font-size: 2rem;
   padding: 1.5rem;
-  background-color: blueviolet;
+  background-color: #355c7d;
+  color: white;
   opacity: 1;
   border: none;
   outline: none;
@@ -149,7 +161,8 @@ code {
   border-radius: .5rem;
   font-size: 2rem;
   padding: 1.5rem;
-  background-color: blueviolet;
+  background-color: #355c7d;
+  color: white;
   opacity: 1;
   border: none;
   outline: none;
@@ -169,7 +182,8 @@ code {
   border-radius: .5rem;
   font-size: 2rem;
   padding: 1.5rem;
-  background-color: blueviolet;
+  background-color: #355c7d;
+  color: white;
   opacity: 1;
   border: none;
   outline: none;
